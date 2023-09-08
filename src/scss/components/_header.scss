@@ -1,0 +1,24 @@
+@import "../variables";
+
+.header {
+  padding: 22px 50px;
+  max-height: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  .menu {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    .menu {
+      display: block;
+    }
+    padding: 15px 30px;
+  }
+  @media (max-width: 425px) {
+    padding: 10px 15px;
+  }
+  @media (max-width: 375px) {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,9 @@
+@import "./variables";
+@import "./libs/normalize";
+@import "./components/all";
+
+.wrapper{
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: #7cd1c7;
+}
