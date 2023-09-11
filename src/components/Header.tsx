@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   return (
-    <div>
-         <nav>
+    <div className='header'>
+         <nav className='navigation'>
           <ul>
             <li>
               <Link to="/">На главную</Link>
@@ -17,6 +17,11 @@ const Header: React.FC = () => {
             </li>
           </ul>
         </nav>
+        <div className="logo">🍵</div>
+        <ul className="links">
+          <li>IG</li>
+          <li>TG</li>
+        </ul>
     </div>
   );
 }

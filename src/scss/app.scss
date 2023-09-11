@@ -1,9 +1,12 @@
 @import "./variables";
 @import "./libs/normalize";
 @import "./components/all";
+.page{
+  background-image: url('https://downloader.disk.yandex.ru/preview/06a05d703408925ece7a2900237b7fd6ef2fd1c0ccf2d17903d69be483c0ce89/64ff73ef/vGkSDrAYdT4raJMJ6FcWbgiySqeNeUHD-9b0YtdNlkpgZMDkdwhJ6gMsU1G37QIUjHqIIlTp9Gur2J-3PYjxIA%3D%3D?uid=0&filename=ttbg.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2880x1566');
+height: 100vh;
+background-size: cover;
 
+}
 .wrapper{
   margin: 0 auto;
-  max-width: 1000px;
-  background-color: #7cd1c7;
 }
